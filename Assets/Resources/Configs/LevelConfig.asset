@@ -1,0 +1,41 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2f598a8389164978b4060690752ea4d4, type: 3}
+  m_Name: LevelConfig
+  m_EditorClassIdentifier: 
+  cameraSensitivity: 15
+  cameraSmooth: 0.5
+  cameraVerticalMin: -10
+  cameraVerticalMax: 25
+  skillImages:
+  - {fileID: 21300000, guid: 0220bd84cfd6b409c94b41b38e6a999b, type: 3}
+  - {fileID: 21300000, guid: 9f98d2c2dd8bb49a191dd59b617e932b, type: 3}
+  - {fileID: 21300000, guid: acc49994720c44021897b2d0ffcc3b3e, type: 3}
+  effects:
+  - skill: 0
+    skillView: {fileID: -7175336668647746380, guid: 62224b85c76c34feea7f1b0205dcca95, type: 3}
+    effectView: {fileID: 1957753906209162440, guid: 204df843233534d62984c303bca2ee5e, type: 3}
+  - skill: 1
+    skillView: {fileID: 3804144955848134595, guid: dd1a3f90f064b4255ad653d1920bcacb, type: 3}
+    effectView: {fileID: -6419230567030920769, guid: c0a15d884e5e7a9468ab38bba8a32604, type: 3}
+  - skill: 2
+    skillView: {fileID: -905178250007842691, guid: ed984775957084ecda1ccc2b576a256a, type: 3}
+    effectView: {fileID: 345377151809196218, guid: 60ebc309a40e04b4096654391f53a7cf, type: 3}
+  - skill: 3
+    skillView: {fileID: -8965063994960617670, guid: 9c001e713c3ebd34b9a93ba39ccdb2c7, type: 3}
+    effectView: {fileID: -2193788947253227714, guid: 386319f403831425d8d343387cc18162, type: 3}
+  - skill: 4
+    skillView: {fileID: 8647181890329950685, guid: 3a18d53dca1ff4d1f886539801e31b8f, type: 3}
+    effectView: {fileID: 6803641282731680033, guid: 4cfb6dd930a68409ab181a8aae365a4d, type: 3}
+  - skill: 5
+    skillView: {fileID: -5007755144815883005, guid: 82439437d95954ddcaae7f8a512d7397, type: 3}
+    effectView: {fileID: 3995056230675453784, guid: 2bae4a5f33f8e4bc197ba2267924bc86, type: 3}
